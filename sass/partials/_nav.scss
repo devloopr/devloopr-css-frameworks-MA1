@@ -1,0 +1,7 @@
+nav {
+  background: getColour(beige);
+
+  .active {
+    color: getColour(purple) !important;
+  }
+}

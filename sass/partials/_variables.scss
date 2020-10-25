@@ -1,0 +1,14 @@
+$colours: (
+  purple: #c32c72,
+  background-grey: #e2e2e2,
+  white: #ffffff,
+  darkgrey: #6a6a6a,
+  beige: #f4f3ee,
+);
+
+@function getColour($colour) {
+  @return map-get($colours, $colour);
+}
+
+$font-primary: "Open Sans", sans-serif;
+$font-headings: "Archivo Narrow", sans-serif;
